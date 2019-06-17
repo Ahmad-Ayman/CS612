@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1560795098 source:c:\users\ahmeda1708\documents\github\cs612\lecture 3\example4\main.c
+	<stdio.h>
+	<stdlib.h>
+
