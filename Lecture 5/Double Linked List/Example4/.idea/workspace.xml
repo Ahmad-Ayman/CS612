@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Example1" targetName="Example1" />
+      <config projectName="Example4" targetName="Example4" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,19 +11,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14e7773c-480e-4707-a1b4-9c3001c186aa" name="Default Changelist" comment="">
+    <list default="true" id="729e0b76-b912-41fd-aa24-77087c88d8a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Circural Linked List/Example1/.idea/Example1.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example2/.idea/Example2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example3/.idea/Example3.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example3/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example3/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example4/.idea/Example4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Example4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Example 1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Example1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Example1/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="39" selection-end-column="70" />
+            <state relative-caret-position="345">
+              <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -79,22 +80,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Example1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Example1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -114,7 +104,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Example1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Example1" TARGET_NAME="Example1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Example1" RUN_TARGET_NAME="Example1">
+    <configuration name="Example4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Example4" TARGET_NAME="Example4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Example4" RUN_TARGET_NAME="Example4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -125,24 +115,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14e7773c-480e-4707-a1b4-9c3001c186aa" name="Default Changelist" comment="" />
-      <created>1562604328921</created>
+      <changelist id="729e0b76-b912-41fd-aa24-77087c88d8a2" name="Default Changelist" comment="" />
+      <created>1562610618916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562604328921</updated>
-      <workItem from="1562604330442" duration="4019000" />
+      <updated>1562610618916</updated>
+      <workItem from="1562610620934" duration="3185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4019000" />
+    <option name="totallyTimeSpent" value="3185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="846" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22468142" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -170,19 +160,10 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Lecture 4/Linked Lists/Example 2/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="39" selection-end-column="70" />
+        <state relative-caret-position="345">
+          <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
