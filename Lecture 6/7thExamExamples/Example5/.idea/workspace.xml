@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Example4" targetName="Example4" />
+      <config projectName="Example5" targetName="Example5" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,14 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7502231-faea-4a0f-a1db-b67b5303ec20" name="Default Changelist" comment="">
+    <list default="true" id="d4ab0448-337d-46d1-be04-1476c674a3a9" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Example2/.idea/Example2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example2/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example2/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example2/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example3/.idea/Example3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Example4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example5/.idea/Example5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example4/.idea/Example4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Example5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lecture 5/Double Linked List/Example1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lecture 5/Double Linked List/Example1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lecture 5/Double Linked List/Example3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lecture 5/Double Linked List/Example3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lecture 5/Double Linked List/Example4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lecture 5/Double Linked List/Example4/.idea/workspace.xml" afterDir="false" />
@@ -35,7 +35,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="153">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -65,7 +65,7 @@
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/Example4.iml" />
+        <option value="$PROJECT_DIR$/.idea/Example5.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
@@ -84,8 +84,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -107,7 +107,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Example4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Example4" TARGET_NAME="Example4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Example4" RUN_TARGET_NAME="Example4">
+    <configuration name="Example5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Example5" TARGET_NAME="Example5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Example5" RUN_TARGET_NAME="Example5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -118,43 +118,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7502231-faea-4a0f-a1db-b67b5303ec20" name="Default Changelist" comment="" />
-      <created>1563213503336</created>
+      <changelist id="d4ab0448-337d-46d1-be04-1476c674a3a9" name="Default Changelist" comment="" />
+      <created>1563215415753</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563213503336</updated>
-      <workItem from="1563213505696" duration="1545000" />
-      <workItem from="1563275050050" duration="4351000" />
+      <updated>1563215415753</updated>
+      <workItem from="1563215417851" duration="4874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5896000" />
+    <option name="totallyTimeSpent" value="4874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="846" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32960895" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,8 +164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="153">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
