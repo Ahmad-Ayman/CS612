@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Example4.dir/main.c.o  -o Example4.exe -Wl,--out-implib,libExample4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
