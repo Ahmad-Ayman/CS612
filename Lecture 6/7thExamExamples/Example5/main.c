@@ -4,81 +4,82 @@
 /// Write a C program to check if linked list has loop ( means if this linked list has circular loop )
 //////////////////////////////////////////////
 
-
-/* solution 1
-create linked list other one , pointer p will start from head then save the address of first node
- in the new linked list, then go to the next one and check if it's address already exist in the new linked list
- then it's loop if not add it to the linked list and so on.....
-
- */
-
 #include<stdio.h>
 #include<stdlib.h>
 
 
-struct node {
-    int data;
-    struct node *next;
-};
+    struct node{
+        int data;
+        struct node *next;
+    };
 
+#include <stdio.h>
 
-int main() {
-    struct node *head, *second, *third, *fourth, *fifth, *sixth;
+    int main()
+    {
+        /* solution 1
+   create linked list other one , pointer p will start from head then save the address of first node
+    in the new linked list, then go to the next one and check if it's address already exist in the new linked list
+    then it's loop if not add it to the linked list and so on.....
 
-    //Construct the linked list
-    head = (struct node *) malloc(sizeof(struct node));
-    second = (struct node *) malloc(sizeof(struct node));
-    third = (struct node *) malloc(sizeof(struct node));
-    fourth = (struct node *) malloc(sizeof(struct node));
-    fifth = (struct node *) malloc(sizeof(struct node));
-    sixth = (struct node *) malloc(sizeof(struct node));
+    */
 
-    head->data = 10;
-    head->next = second;
+        struct node *head, *second, *third, *fourth, *fifth, *sixth;
 
-    second->data = 20;
-    second->next = third;
+        //Construct the linked list
+        head = (struct node*)malloc(sizeof(struct node));
+        second = (struct node*)malloc(sizeof(struct node));
+        third = (struct node*)malloc(sizeof(struct node));
+        fourth = (struct node*)malloc(sizeof(struct node));
+        fifth = (struct node*)malloc(sizeof(struct node));
+        sixth = (struct node*)malloc(sizeof(struct node));
 
-    third->data = 5;
-    third->next = fourth;
+        head->data = 10;
+        head->next = second;
 
-    fourth->data = 2;
-    fourth->next = fifth;
+        second->data = 20;
+        second->next = third;
 
-    fifth->data = 1;
-    fifth->next = sixth;
+        third->data = 5;
+        third->next = fourth;
 
-    sixth->data = 44;
-    sixth->next = second;
+        fourth->data = 2;
+        fourth->next = fifth;
 
-    //Check of linked list has loop
-    struct node *ptrs[6];
-    struct node *p = head;
-    int count = 1, flag = 0;
+        fifth->data = 1;
+        fifth->next = sixth;
 
-    //Traverse the linked list until p points to NULL
-    while (p != NULL) {
-        for (int i = 0; i < count; i++) {
-            if (p == ptrs[i]) {
-                printf("\nLinked list has loop, stop execution!!");
+        sixth->data = 44;
+        sixth->next = second;
 
-                flag = 1;
-                break;
+        //Check of linked list has loop
+        struct node *ptrs[6];
+        struct node *p = head;
+        int count = 1, flag=0;
+
+        //Traverse the linked list until p points to NULL
+        while (p!=NULL) {
+            for (int i=0; i<count; i++) {
+                if (p==ptrs[i]) {
+                    printf("\nLinked list has loop, stop execution!!");
+
+                    flag=1;
+                    break;
+                }
+
             }
+            //If loop is detected, no need to continue traversing
+            if(flag==1)
+                break;
 
+            printf("Node %d\n", count);
+            ptrs[count-1] = p;
+            count++;
+            p = p-> next;
         }
-        //If loop is detected, no need to continue traversing
-        if (flag == 1)
-            break;
 
-        printf("Node %d\n", count);
-        ptrs[count - 1] = p;
-        count++;
-        p = p->next;
+        //If traversing the linked list ended and flag still 0
+        if(flag==0)
+            printf("\nNo loop detected..");
+        return 0;
     }
-
-    //If traversing the linked list ended and flag still 0
-    if (flag == 0)
-        printf("\nNo loop detected..");
-    return 0;
-}

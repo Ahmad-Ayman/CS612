@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Example4ThirdSolutions.dir/main.c.o  -o Example4ThirdSolutions.exe -Wl,--out-implib,libExample4ThirdSolutions.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

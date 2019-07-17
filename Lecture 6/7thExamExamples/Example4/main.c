@@ -15,6 +15,7 @@ struct Node {
 };
 
 int main() {
+
     /// the linked list is here
     /// Start of Creating the double Single Linked List  ///
     int n2;
